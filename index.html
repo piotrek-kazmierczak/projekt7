@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Dwa divy z różną zawartością</title>
+  <style>
+    .container {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .box1 {
+      background-color: #e0f7fa; /* Jasnoniebieskie tło */
+      padding: 20px;
+      width: 45%;
+      border-radius: 8px;
+    }
+
+    .box2 {
+      background-color: #fff3e0; /* Jasnopomarańczowe tło */
+      padding: 20px;
+      width: 45%;
+      border-radius: 8px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Div nr 1 -->
+    <div class="box1">
+      <h2>Tytuł Divu 1</h2>
+      <p>To jest przykładowy tekst w pierwszym divie. Możesz tutaj umieścić dowolny opis, artykuł lub inny tekst.</p>
+      <img src="https://via.placeholder.com/300x200" alt="Przykładowe zdjęcie">
+    </div>
+
+    <!-- Div nr 2 -->
+    <div class="box2">
+      <h2>Tytuł Divu 2</h2>
+      <ol>
+        <li>
+          Element uporządkowanej listy
+          <ul>
+            <li>Podpunkt 1</li>
+            <li>Podpunkt 2</li>
+          </ul>
+        </li>
+        <li>
+          Kolejny element
+          <ul>
+            <li>Inny podpunkt</li>
+          </ul>
+        </li>
+      </ol>
+      <p><a href="https://example.com" target="_blank">Kliknij tutaj, aby odwiedzić stronę</a></p>
+    </div>
+  </div>
+
+</body>
+</html>
